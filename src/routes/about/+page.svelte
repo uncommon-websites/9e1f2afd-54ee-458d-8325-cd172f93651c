@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Faster claims. Happier policyholders."
+	subtitle="Insurance-built roofing you can count on"
+	imageSrc="/generated/image-a-group-of-diverse-professionals-collabo.webp"
 />
 
 <!-- Story Section -->
