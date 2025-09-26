@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	centered={true}
+	title="Restore storm-damaged properties in record time"
+	subtitle="Transform insurance claims with our nationwide contractor network and real-time project tracking technology."
+	customers={[
+		{
+			name: "Robert Mitchell",
+			position: "Claims Director, Regional Insurance",
+			imageSrc: "/generated/image-professional-middle-aged-businessman-in-.webp"
+		},
+		{
+			name: "Sarah Chen",
+			position: "Property Claims Manager, State Farm",
+			imageSrc: "/generated/image-professional-businesswoman-in-office-att.webp"
+		},
+		{
+			name: "Michael Thompson",
+			position: "Senior Claims Adjuster, Allstate",
+			imageSrc: "/generated/image-professional-mature-man-in-business-casu.webp"
+		},
+		{
+			name: "Jennifer Davis",
+			position: "Claims Operations Director, Travelers",
+			imageSrc: "/generated/image-professional-woman-executive-in-a-tailor.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "Property Claims Supervisor, Liberty Mutual",
+			imageSrc: "/generated/image-professional-businessman-with-glasses-in.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/statefarm.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/allstate.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/travelers.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/libertymutual.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
