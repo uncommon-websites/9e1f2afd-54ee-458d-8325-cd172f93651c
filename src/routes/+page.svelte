@@ -58,54 +58,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Amanda Rodriguez",
+			position: "Senior Claims Adjuster",
+			company: "American Family Insurance",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We reduced our average claim resolution time from 45 days to just 6 days. The real-time tracking dashboard gives us complete visibility into every project stage, and contractors actually show up when they say they will.",
+			image: "/generated/image-a-confident-female-insurance-claims-adju.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "Claims Director",
+			company: "Nationwide Insurance",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The 48-hour response guarantee has been a game-changer for our storm season operations. We've processed 300% more claims this quarter while maintaining customer satisfaction scores above 95%.",
+			image: "/generated/image-a-professional-male-insurance-executive-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Elena Nakamura",
+			position: "Property Claims Manager",
+			company: "Farmers Insurance",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Their contractor network saved us over $2.3 million in expedited repair costs last year. No more emergency contractor markups or delayed settlements - just reliable, vetted professionals who deliver quality work on time.",
+			image: "/generated/image-a-confident-female-insurance-claims-mana.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Accelerate claim resolution with proven technology"
+	subtitle="Transform your insurance claims process with our nationwide contractor network and real-time project tracking that delivers results in days, not weeks."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "48-hour response guarantee",
+			description: "Get qualified contractors on-site within 48 hours, eliminating the 30-60 day delays that frustrate adjusters and policyholders.",
+			imageSrc: "/generated/image-a-professional-contractor-wearing-a-blue.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Real-time project tracking",
+			description: "Monitor every project milestone through our live dashboard that provides complete visibility from initial assessment to final completion.",
+			imageSrc: "/generated/image-a-group-of-professionals-including-an-in.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Nationwide contractor network",
+			description: "Access our vetted network of 10,000+ contractors across all 50 states, ensuring coverage even in the most storm-affected regions.",
+			imageSrc: "/generated/image-a-wide-angle-view-of-a-peaceful-resident.webp"
+		},
+		{
+			title: "Insurance carrier integration",
+			description: "Seamlessly integrate with your existing claims systems to streamline workflows and reduce administrative overhead by 60%.",
+			imageSrc: "/generated/image-an-insurance-adjuster-and-a-contractor-s.webp"
+		},
+		{
+			title: "Storm damage specialization",
+			description: "Leverage our expertise in roof and gutter repairs from hail, wind, and water damage with contractors trained specifically for insurance claims.",
+			imageSrc: "/generated/image-a-recently-storm-damaged-house-is-now-su.webp"
+		},
+		{
+			title: "Quality assurance program",
+			description: "Every project includes comprehensive inspections and warranty coverage, giving you confidence in completed repairs and satisfied policyholders.",
+			imageSrc: "/generated/image-a-contractor-and-an-insurance-adjuster-c.webp"
 		}
 	]}
 />
