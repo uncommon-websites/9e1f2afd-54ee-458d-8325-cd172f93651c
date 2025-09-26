@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed without compromise",
+			description: "We guarantee 48-hour response times because every day matters to your policyholders and your business."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Reliable partnerships",
+			description: "Our vetted contractor network delivers consistent quality, eliminating the uncertainty that delays claims resolution."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Complete transparency",
+			description: "Real-time project tracking gives you full visibility from claim approval to job completion, building trust at every step."
 		}
 	];
 </script>
@@ -33,7 +33,6 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
 		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
 		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
@@ -43,61 +42,27 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Leadership that delivers."
+	subtitle="Transforming insurance claims resolution."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Matt Fruge",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			bio: "Leading the transformation of insurance claim resolution through innovative contractor networks and real-time tracking technology.",
+			image: "/generated/image-a-professional-headshot-of-a-ceo-in-the-.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to close claims faster?"
+	subtitle="See the difference in 48 hours"
+	description="Join property insurance carriers who've reduced claim resolution time from weeks to days. Schedule a demo and discover how our vetted contractor network can transform your roof and gutter claims process."
+	imageSrc="/generated/image-a-professional-insurance-claims-adjuster.webp"
 />
